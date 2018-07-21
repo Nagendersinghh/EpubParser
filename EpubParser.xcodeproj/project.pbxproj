@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C15D2262106D67E00C4C27D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D2252106D67E00C4C27D /* SWXMLHash.framework */; };
+		1C15D2282106D68B00C4C27D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D2272106D68B00C4C27D /* SWXMLHash.framework */; };
+		1C15D22A2106D69800C4C27D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D2292106D69700C4C27D /* SWXMLHash.framework */; };
+		1C3991E1201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
+		1C3991E2201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
+		1C3991E3201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
+		1C3991E5201B425100482349 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E4201B425100482349 /* Epub.swift */; };
+		1C3991E6201B425100482349 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E4201B425100482349 /* Epub.swift */; };
+		1C3991E7201B425100482349 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E4201B425100482349 /* Epub.swift */; };
+		1C3991EA201B645900482349 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3991E9201B645900482349 /* Zip.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1C3991ED201B65AE00482349 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3991EC201B65AE00482349 /* Zip.framework */; };
+		1C3991F2201B666400482349 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3991F1201B666400482349 /* Zip.framework */; };
+		1C3991F4201B9B1000482349 /* EpubParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F3201B9B1000482349 /* EpubParserErrors.swift */; };
+		1C3991F5201B9B1000482349 /* EpubParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F3201B9B1000482349 /* EpubParserErrors.swift */; };
+		1C3991F6201B9B1000482349 /* EpubParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F3201B9B1000482349 /* EpubParserErrors.swift */; };
+		1C3991F8201BA14000482349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F7201BA14000482349 /* Extensions.swift */; };
+		1C3991F9201BA14000482349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F7201BA14000482349 /* Extensions.swift */; };
+		1C3991FA201BA14000482349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F7201BA14000482349 /* Extensions.swift */; };
+		1C5A646F21049D5A004C7C6D /* EpubParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C851824201AE6F9004F458A /* EpubParser.framework */; };
 		1C851848201AECEC004F458A /* EpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C851847201AECEC004F458A /* EpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C851849201AECEC004F458A /* EpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C851847201AECEC004F458A /* EpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C85184A201AECEC004F458A /* EpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C851847201AECEC004F458A /* EpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C851850201AED79004F458A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85184F201AED79004F458A /* Car.swift */; };
-		1C851851201AED79004F458A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85184F201AED79004F458A /* Car.swift */; };
-		1C851852201AED79004F458A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85184F201AED79004F458A /* Car.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1C5A646B21049C73004C7C6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/nagendersingh/Documents/EpubParser/EpubParserTest;
+			dstSubfolderSpec = 0;
+			files = (
+				1C5A646F21049D5A004C7C6D /* EpubParser.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1C15D2252106D67E00C4C27D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
+		1C15D2272106D68B00C4C27D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/tvOS/SWXMLHash.framework; sourceTree = "<group>"; };
+		1C15D2292106D69700C4C27D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+		1C3991E0201B385E00482349 /* EpubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubParser.swift; sourceTree = "<group>"; };
+		1C3991E4201B425100482349 /* Epub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
+		1C3991E9201B645900482349 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
+		1C3991EC201B65AE00482349 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/tvOS/Zip.framework; sourceTree = "<group>"; };
+		1C3991F1201B666400482349 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/Mac/Zip.framework; sourceTree = "<group>"; };
+		1C3991F3201B9B1000482349 /* EpubParserErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubParserErrors.swift; sourceTree = "<group>"; };
+		1C3991F7201BA14000482349 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1C8517EB201AE690004F458A /* EpubParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EpubParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C851808201AE6D7004F458A /* EpubParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EpubParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C851824201AE6F9004F458A /* EpubParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EpubParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,7 +62,6 @@
 		1C851843201AEA11004F458A /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		1C851844201AEA11004F458A /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		1C851847201AECEC004F458A /* EpubParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubParser.h; sourceTree = "<group>"; };
-		1C85184F201AED79004F458A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		1C851853201AEE79004F458A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1C851868201B11EE004F458A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3991EA201B645900482349 /* Zip.framework in Frameworks */,
+				1C15D2262106D67E00C4C27D /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3991ED201B65AE00482349 /* Zip.framework in Frameworks */,
+				1C15D2282106D68B00C4C27D /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3991F2201B666400482349 /* Zip.framework in Frameworks */,
+				1C15D22A2106D69800C4C27D /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3991DF201B384500482349 /* EpubCore */ = {
+			isa = PBXGroup;
+			children = (
+				1C3991E0201B385E00482349 /* EpubParser.swift */,
+				1C3991E4201B425100482349 /* Epub.swift */,
+			);
+			path = EpubCore;
+			sourceTree = "<group>";
+		};
+		1C3991E8201B645900482349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C15D2252106D67E00C4C27D /* SWXMLHash.framework */,
+				1C15D2272106D68B00C4C27D /* SWXMLHash.framework */,
+				1C15D2292106D69700C4C27D /* SWXMLHash.framework */,
+				1C3991F1201B666400482349 /* Zip.framework */,
+				1C3991EC201B65AE00482349 /* Zip.framework */,
+				1C3991E9201B645900482349 /* Zip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1C8517DF201AE66D004F458A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +126,7 @@
 				1C85183B201AE72B004F458A /* Sources */,
 				1C8517EC201AE690004F458A /* Products */,
 				1C851867201B11C0004F458A /* Metadata */,
+				1C3991E8201B645900482349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,11 +143,13 @@
 		1C85183B201AE72B004F458A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C3991DF201B384500482349 /* EpubCore */,
 				1C851847201AECEC004F458A /* EpubParser.h */,
 				1C851843201AEA11004F458A /* Info-iOS.plist */,
 				1C851842201AEA11004F458A /* Info-macOS.plist */,
 				1C851844201AEA11004F458A /* Info-tvOS.plist */,
-				1C85184F201AED79004F458A /* Car.swift */,
+				1C3991F3201B9B1000482349 /* EpubParserErrors.swift */,
+				1C3991F7201BA14000482349 /* Extensions.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -131,6 +200,7 @@
 				1C8517E7201AE690004F458A /* Frameworks */,
 				1C8517E8201AE690004F458A /* Headers */,
 				1C8517E9201AE690004F458A /* Resources */,
+				1C3991EB201B647700482349 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +219,7 @@
 				1C851804201AE6D7004F458A /* Frameworks */,
 				1C851805201AE6D7004F458A /* Headers */,
 				1C851806201AE6D7004F458A /* Resources */,
+				1C3991EE201B65B900482349 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -167,6 +238,7 @@
 				1C851820201AE6F9004F458A /* Frameworks */,
 				1C851821201AE6F9004F458A /* Headers */,
 				1C851822201AE6F9004F458A /* Resources */,
+				1C5A646B21049C73004C7C6D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -246,12 +318,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C3991EB201B647700482349 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		1C3991EE201B65B900482349 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C8517E6201AE690004F458A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C851850201AED79004F458A /* Car.swift in Sources */,
+				1C3991F4201B9B1000482349 /* EpubParserErrors.swift in Sources */,
+				1C3991E1201B385E00482349 /* EpubParser.swift in Sources */,
+				1C3991E5201B425100482349 /* Epub.swift in Sources */,
+				1C3991F8201BA14000482349 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +367,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C851851201AED79004F458A /* Car.swift in Sources */,
+				1C3991F5201B9B1000482349 /* EpubParserErrors.swift in Sources */,
+				1C3991E2201B385E00482349 /* EpubParser.swift in Sources */,
+				1C3991E6201B425100482349 /* Epub.swift in Sources */,
+				1C3991F9201BA14000482349 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +378,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C851852201AED79004F458A /* Car.swift in Sources */,
+				1C3991F6201B9B1000482349 /* EpubParserErrors.swift in Sources */,
+				1C3991E3201B385E00482349 /* EpubParser.swift in Sources */,
+				1C3991E7201B425100482349 /* Epub.swift in Sources */,
+				1C3991FA201BA14000482349 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +443,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -402,6 +520,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -468,6 +590,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -541,6 +667,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -608,6 +738,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -682,6 +816,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;

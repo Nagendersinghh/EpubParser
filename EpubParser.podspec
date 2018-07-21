@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EpubParser"
-  s.version      = "0.0.1"
-  s.summary      = "A fast, elegant parser of Epubs"
+  s.version      = "0.1.0"
+  s.summary      = "An Epub parser"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-		Parse all the epubs
+		An Epub parser written in swift.
                    DESC
 
   s.homepage     = "http://google.com"
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   # s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
-  swift_version = "3.0"
+  s.swift_version = "3.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://gitlab.com/Nagendersinghh/EpubParser"}
+  s.source       = { :git => "https://gitlab.com/Nagendersinghh/EpubParser", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
