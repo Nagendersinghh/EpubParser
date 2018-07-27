@@ -7,24 +7,21 @@
 
 import Foundation
 import Zip
-import SWXMLHash
 
 public class EpubParser {
-    var tempDir = NSTemporaryDirectory()
     public typealias completion = (Epub?, Error?) -> Void
     let atCompletion: completion
+    let rootDirectory = URL(fileURLWithPath: NSTemporaryDirectory())
+    let source: URL
 
     public init(source: URL, atCompletion: @escaping completion) {
         self.atCompletion = atCompletion
+        self.source = source
         Zip.addCustomFileExtension("epub")
-        parseEpub(atPath: source, to: URL(string: tempDir)!)
+        self.unzipEpub(atPath: source, to: rootDirectory)
     }
-
-    private func parseEpub(atPath: URL, to: URL) {
-        let rootDirectory = to
-        let fileName = atPath.lastPathComponent
-        // let shouldUnzip = !FileManager.default.isDirectory(atPath: atPath)
-        
+    
+    private func unzipEpub(atPath: URL, to: URL) {
         do {
             try Zip.unzipFile(atPath, destination: rootDirectory, overwrite: true, password: nil)
         } catch {
@@ -32,6 +29,9 @@ public class EpubParser {
             print("Invalid epub")
             return
         }
+    }
+
+    public func parseEpub() {
         // Check the contents of the `mimetype` file.
         if let mimeType = try? String(contentsOf: rootDirectory.appendingPathComponent("mimetype"), encoding: String.Encoding.ascii) {
             guard mimeType == "application/epub+zip" else {

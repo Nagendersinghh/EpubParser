@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C15D2262106D67E00C4C27D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D2252106D67E00C4C27D /* SWXMLHash.framework */; };
-		1C15D2282106D68B00C4C27D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D2272106D68B00C4C27D /* SWXMLHash.framework */; };
-		1C15D22A2106D69800C4C27D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C15D2292106D69700C4C27D /* SWXMLHash.framework */; };
+		1C0CDAD221083EEE005E5588 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0CDAD121083EEE005E5588 /* AEXML.framework */; };
+		1C0CDAD421083EF8005E5588 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0CDAD321083EF8005E5588 /* AEXML.framework */; };
+		1C0CDAD621083F07005E5588 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0CDAD521083F07005E5588 /* AEXML.framework */; };
 		1C3991E1201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
 		1C3991E2201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
 		1C3991E3201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
@@ -25,10 +25,22 @@
 		1C3991F8201BA14000482349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F7201BA14000482349 /* Extensions.swift */; };
 		1C3991F9201BA14000482349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F7201BA14000482349 /* Extensions.swift */; };
 		1C3991FA201BA14000482349 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991F7201BA14000482349 /* Extensions.swift */; };
+		1C4486652108F49400D3B583 /* EpubResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4486642108F49400D3B583 /* EpubResource.swift */; };
+		1C4486662108F49400D3B583 /* EpubResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4486642108F49400D3B583 /* EpubResource.swift */; };
+		1C4486672108F49400D3B583 /* EpubResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4486642108F49400D3B583 /* EpubResource.swift */; };
 		1C5A646F21049D5A004C7C6D /* EpubParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C851824201AE6F9004F458A /* EpubParser.framework */; };
 		1C851848201AECEC004F458A /* EpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C851847201AECEC004F458A /* EpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C851849201AECEC004F458A /* EpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C851847201AECEC004F458A /* EpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C85184A201AECEC004F458A /* EpubParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C851847201AECEC004F458A /* EpubParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB6C48E210A32B6004E9BB1 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C48D210A32B6004E9BB1 /* Spine.swift */; };
+		1CB6C48F210A32B6004E9BB1 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C48D210A32B6004E9BB1 /* Spine.swift */; };
+		1CB6C490210A32B6004E9BB1 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C48D210A32B6004E9BB1 /* Spine.swift */; };
+		1CB6C492210A3CC3004E9BB1 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C491210A3CC3004E9BB1 /* Manifest.swift */; };
+		1CB6C493210A3CC3004E9BB1 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C491210A3CC3004E9BB1 /* Manifest.swift */; };
+		1CB6C494210A3CC3004E9BB1 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C491210A3CC3004E9BB1 /* Manifest.swift */; };
+		1CB6C496210A3D0B004E9BB1 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C495210A3D0B004E9BB1 /* MetaData.swift */; };
+		1CB6C497210A3D0B004E9BB1 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C495210A3D0B004E9BB1 /* MetaData.swift */; };
+		1CB6C498210A3D0B004E9BB1 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6C495210A3D0B004E9BB1 /* MetaData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,9 +57,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1C15D2252106D67E00C4C27D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
-		1C15D2272106D68B00C4C27D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/tvOS/SWXMLHash.framework; sourceTree = "<group>"; };
-		1C15D2292106D69700C4C27D /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+		1C0CDAD121083EEE005E5588 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/Mac/AEXML.framework; sourceTree = "<group>"; };
+		1C0CDAD321083EF8005E5588 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/tvOS/AEXML.framework; sourceTree = "<group>"; };
+		1C0CDAD521083F07005E5588 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = "<group>"; };
 		1C3991E0201B385E00482349 /* EpubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubParser.swift; sourceTree = "<group>"; };
 		1C3991E4201B425100482349 /* Epub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
 		1C3991E9201B645900482349 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
@@ -55,6 +67,7 @@
 		1C3991F1201B666400482349 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/Mac/Zip.framework; sourceTree = "<group>"; };
 		1C3991F3201B9B1000482349 /* EpubParserErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubParserErrors.swift; sourceTree = "<group>"; };
 		1C3991F7201BA14000482349 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1C4486642108F49400D3B583 /* EpubResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubResource.swift; sourceTree = "<group>"; };
 		1C8517EB201AE690004F458A /* EpubParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EpubParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C851808201AE6D7004F458A /* EpubParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EpubParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C851824201AE6F9004F458A /* EpubParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EpubParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +77,9 @@
 		1C851847201AECEC004F458A /* EpubParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubParser.h; sourceTree = "<group>"; };
 		1C851853201AEE79004F458A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1C851868201B11EE004F458A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1CB6C48D210A32B6004E9BB1 /* Spine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spine.swift; sourceTree = "<group>"; };
+		1CB6C491210A3CC3004E9BB1 /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
+		1CB6C495210A3D0B004E9BB1 /* MetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3991EA201B645900482349 /* Zip.framework in Frameworks */,
-				1C15D2262106D67E00C4C27D /* SWXMLHash.framework in Frameworks */,
+				1C0CDAD621083F07005E5588 /* AEXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3991ED201B65AE00482349 /* Zip.framework in Frameworks */,
-				1C15D2282106D68B00C4C27D /* SWXMLHash.framework in Frameworks */,
+				1C0CDAD421083EF8005E5588 /* AEXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3991F2201B666400482349 /* Zip.framework in Frameworks */,
-				1C15D22A2106D69800C4C27D /* SWXMLHash.framework in Frameworks */,
+				1C0CDAD221083EEE005E5588 /* AEXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +118,10 @@
 			children = (
 				1C3991E0201B385E00482349 /* EpubParser.swift */,
 				1C3991E4201B425100482349 /* Epub.swift */,
+				1C4486642108F49400D3B583 /* EpubResource.swift */,
+				1CB6C48D210A32B6004E9BB1 /* Spine.swift */,
+				1CB6C491210A3CC3004E9BB1 /* Manifest.swift */,
+				1CB6C495210A3D0B004E9BB1 /* MetaData.swift */,
 			);
 			path = EpubCore;
 			sourceTree = "<group>";
@@ -109,9 +129,9 @@
 		1C3991E8201B645900482349 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C15D2252106D67E00C4C27D /* SWXMLHash.framework */,
-				1C15D2272106D68B00C4C27D /* SWXMLHash.framework */,
-				1C15D2292106D69700C4C27D /* SWXMLHash.framework */,
+				1C0CDAD121083EEE005E5588 /* AEXML.framework */,
+				1C0CDAD321083EF8005E5588 /* AEXML.framework */,
+				1C0CDAD521083F07005E5588 /* AEXML.framework */,
 				1C3991F1201B666400482349 /* Zip.framework */,
 				1C3991EC201B65AE00482349 /* Zip.framework */,
 				1C3991E9201B645900482349 /* Zip.framework */,
@@ -238,6 +258,7 @@
 				1C851820201AE6F9004F458A /* Frameworks */,
 				1C851821201AE6F9004F458A /* Headers */,
 				1C851822201AE6F9004F458A /* Resources */,
+				1C15D2372106DDC000C4C27D /* Run Script */,
 				1C5A646B21049C73004C7C6D /* CopyFiles */,
 			);
 			buildRules = (
@@ -319,6 +340,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1C15D2372106DDC000C4C27D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Zip.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/AEXML.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Zip.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AEXML.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		1C3991EB201B647700482349 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,9 +365,11 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AEXML.framework",
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Zip.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AEXML.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
@@ -340,10 +381,12 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Zip.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/AEXML.framework",
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Zip.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AEXML.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
@@ -357,7 +400,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3991F4201B9B1000482349 /* EpubParserErrors.swift in Sources */,
+				1C4486652108F49400D3B583 /* EpubResource.swift in Sources */,
+				1CB6C496210A3D0B004E9BB1 /* MetaData.swift in Sources */,
+				1CB6C492210A3CC3004E9BB1 /* Manifest.swift in Sources */,
 				1C3991E1201B385E00482349 /* EpubParser.swift in Sources */,
+				1CB6C48E210A32B6004E9BB1 /* Spine.swift in Sources */,
 				1C3991E5201B425100482349 /* Epub.swift in Sources */,
 				1C3991F8201BA14000482349 /* Extensions.swift in Sources */,
 			);
@@ -368,7 +415,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3991F5201B9B1000482349 /* EpubParserErrors.swift in Sources */,
+				1C4486662108F49400D3B583 /* EpubResource.swift in Sources */,
+				1CB6C497210A3D0B004E9BB1 /* MetaData.swift in Sources */,
+				1CB6C493210A3CC3004E9BB1 /* Manifest.swift in Sources */,
 				1C3991E2201B385E00482349 /* EpubParser.swift in Sources */,
+				1CB6C48F210A32B6004E9BB1 /* Spine.swift in Sources */,
 				1C3991E6201B425100482349 /* Epub.swift in Sources */,
 				1C3991F9201BA14000482349 /* Extensions.swift in Sources */,
 			);
@@ -379,7 +430,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3991F6201B9B1000482349 /* EpubParserErrors.swift in Sources */,
+				1C4486672108F49400D3B583 /* EpubResource.swift in Sources */,
+				1CB6C498210A3D0B004E9BB1 /* MetaData.swift in Sources */,
+				1CB6C494210A3CC3004E9BB1 /* Manifest.swift in Sources */,
 				1C3991E3201B385E00482349 /* EpubParser.swift in Sources */,
+				1CB6C490210A32B6004E9BB1 /* Spine.swift in Sources */,
 				1C3991E7201B425100482349 /* Epub.swift in Sources */,
 				1C3991FA201BA14000482349 /* Extensions.swift in Sources */,
 			);
