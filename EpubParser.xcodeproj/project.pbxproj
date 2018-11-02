@@ -10,6 +10,9 @@
 		1C0CDAD221083EEE005E5588 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0CDAD121083EEE005E5588 /* AEXML.framework */; };
 		1C0CDAD421083EF8005E5588 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0CDAD321083EF8005E5588 /* AEXML.framework */; };
 		1C0CDAD621083F07005E5588 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0CDAD521083F07005E5588 /* AEXML.framework */; };
+		1C3305482110BDBF009D61DD /* Rendition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3305472110BDBF009D61DD /* Rendition.swift */; };
+		1C3305492110BDBF009D61DD /* Rendition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3305472110BDBF009D61DD /* Rendition.swift */; };
+		1C33054A2110BDBF009D61DD /* Rendition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3305472110BDBF009D61DD /* Rendition.swift */; };
 		1C3991E1201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
 		1C3991E2201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
 		1C3991E3201B385E00482349 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3991E0201B385E00482349 /* EpubParser.swift */; };
@@ -60,6 +63,7 @@
 		1C0CDAD121083EEE005E5588 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/Mac/AEXML.framework; sourceTree = "<group>"; };
 		1C0CDAD321083EF8005E5588 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/tvOS/AEXML.framework; sourceTree = "<group>"; };
 		1C0CDAD521083F07005E5588 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = "<group>"; };
+		1C3305472110BDBF009D61DD /* Rendition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rendition.swift; sourceTree = "<group>"; };
 		1C3991E0201B385E00482349 /* EpubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubParser.swift; sourceTree = "<group>"; };
 		1C3991E4201B425100482349 /* Epub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
 		1C3991E9201B645900482349 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				1CB6C48D210A32B6004E9BB1 /* Spine.swift */,
 				1CB6C491210A3CC3004E9BB1 /* Manifest.swift */,
 				1CB6C495210A3D0B004E9BB1 /* MetaData.swift */,
+				1C3305472110BDBF009D61DD /* Rendition.swift */,
 			);
 			path = EpubCore;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				1CB6C48E210A32B6004E9BB1 /* Spine.swift in Sources */,
 				1C3991E5201B425100482349 /* Epub.swift in Sources */,
 				1C3991F8201BA14000482349 /* Extensions.swift in Sources */,
+				1C3305482110BDBF009D61DD /* Rendition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +428,7 @@
 				1CB6C48F210A32B6004E9BB1 /* Spine.swift in Sources */,
 				1C3991E6201B425100482349 /* Epub.swift in Sources */,
 				1C3991F9201BA14000482349 /* Extensions.swift in Sources */,
+				1C3305492110BDBF009D61DD /* Rendition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +444,7 @@
 				1CB6C490210A32B6004E9BB1 /* Spine.swift in Sources */,
 				1C3991E7201B425100482349 /* Epub.swift in Sources */,
 				1C3991FA201BA14000482349 /* Extensions.swift in Sources */,
+				1C33054A2110BDBF009D61DD /* Rendition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
